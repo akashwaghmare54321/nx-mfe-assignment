@@ -1,0 +1,4 @@
+{
+  "mfeProducts": "http://localhost:4201/mf-manifest.json",
+  "mfeDashboard": "http://localhost:4202/mf-manifest.json"
+}

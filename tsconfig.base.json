@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+   "paths": {
+  "mfeProducts/Routes": [
+    "mfeProducts/src/app/remote-entry/entry.routes.ts"
+  ],
+  "mfeDashboard/Routes": [
+    "mfeDashboard/src/app/remote-entry/entry.routes.ts"
+  ],
+  "@nx-mfe-assignment/ui-library": [
+    "ui-library/src/index.ts"
+  ]
+}
   },
   "exclude": ["node_modules", "tmp"]
 }

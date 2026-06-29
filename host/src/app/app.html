@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Host Application</h1>
+
+<h3>Signal Counter</h3>
+
+<p>Count: {{ count() }}</p>
+
+<button (click)="increment()">Increment</button>
+
+<lib-ui-library></lib-ui-library>
+  <hr />
+
+  <h3>Micro Frontends</h3>
+
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/mfeProducts">Products</a></li>
+    <li><a routerLink="/mfeDashboard">Dashboard</a></li>
+  </ul>
+<lib-ui-library></lib-ui-library>
+  <router-outlet></router-outlet>
+</div>
